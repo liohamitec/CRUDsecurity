@@ -30,6 +30,10 @@
         <h2>Welcome ${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a>
         </h2>
 
+        <br>
+        <h3><a href="/developers">Developers</a></h3>
+        <h3><a href="/skills">Skills</a></h3>
+
     </c:if>
 
 </div>

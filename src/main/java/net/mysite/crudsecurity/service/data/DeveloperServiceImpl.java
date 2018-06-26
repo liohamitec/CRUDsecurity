@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
+import java.util.List;
 
 @Service
 public class DeveloperServiceImpl implements DeveloperService {
@@ -33,7 +34,7 @@ public class DeveloperServiceImpl implements DeveloperService {
     }
 
     @Override
-    public Collection<Developer> getAll() {
+    public List<Developer> getAll() {
         return developerRepository.findAll();
     }
 }
